@@ -1,0 +1,7 @@
+*.gem
+*.swp
+.bundle
+.ruby-version
+Gemfile.lock
+tmp/
+vendor/
