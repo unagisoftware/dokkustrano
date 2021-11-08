@@ -46,7 +46,7 @@ end
 
 These are all the Rake tasks which are provided by this gem:
 ```ruby
-rails dokku:console[app]                                # Connect with Dokku app and open a Rails console
+rails dokku:console[app,environment]                    # Connect with Dokku app and open a Rails console (if no environment is received, production is used)
 rails dokku:data:export[app]                            # Download dump from Dokku given app
 rails dokku:data:import[app,path]                       # Import dump to given Dokku app
 rails dokku:postgres:change_version[service,version]    # Change PostgreSQL version for given Dokku database service
